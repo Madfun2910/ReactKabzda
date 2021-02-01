@@ -6,11 +6,35 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="" />
+    <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612165171856</updated>
       <workItem from="1612165172975" duration="1840000" />
+      <workItem from="1612167840968" duration="1337000" />
     </task>
     <servers />
   </component>
@@ -75,28 +100,41 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612167674930">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612168978549">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612167674930" />
-    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612167674929">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612168978549" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612168978548">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612167674929" />
-    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612167674928">
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612168978548" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612168978547">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612167674928" />
-    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612167674930">
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612168978547" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612168978549">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612167674930" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612168978549" />
   </component>
 </project>
