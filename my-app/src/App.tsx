@@ -1,70 +1,39 @@
 import React from 'react';
 import './App.css';
+import {Accordion} from "./components/Accordion/Accordion";
+import {Rating} from "./components/Rating/Rating";
 
 
 // Function declaration
 function App() {
 
     return (
-        <div className="App">
             <div>
-                <Title/>
-                <Rating/>
-                <Accordion/>
-                <Rating/>
+                <PageTitle title={"Hello"}/>
+                <PageTitle title={"USER"}/>
+                {/*<Rating value={1}/>*/}
+                <Accordion titlevalue={"Menu"} collapsed={true}/>
+                <Accordion titlevalue={"Menu2"} collapsed={false}/>
+                {/*<Rating value={2}/>*/}
+                {/*<Rating value={3}/>*/}
+                {/*<Rating value={4}/>*/}
             </div>
-        </div>
     );
 }
+type PageTitlePropsType = {
+    title: string
+}
 
-function Title() {
+function PageTitle(props: PageTitlePropsType) {
     return (
-        <div>This is APP</div>
+        <h1>
+            {props.title}
+        </h1>
     )
 }
 
-function Rating() {
-    return (
-        <>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-            <Star/>
-        </>
-    )
-}
 
-function Star() {
-    return (
-        <div>star</div>
-    )
-}
 
-function Accordion() {
-    return (
-        <div>
-            <AccordionTitle/>
-            <AccordionBody/>
 
-        </div>
-    )
-}
-
-function AccordionTitle() {
-    return (
-        <h3>Menu</h3>
-    )
-}
-
-function AccordionBody() {
-    return (
-        <div>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </div>
-    )
-}
 
 export default App;
