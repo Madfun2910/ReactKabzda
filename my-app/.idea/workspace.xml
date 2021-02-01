@@ -10,37 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/ReactKabzda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,21 +82,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612165440741">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612167674930">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612165440741" />
-    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612165440740">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612167674930" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612167674929">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612165440740" />
-    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612165440739">
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612167674929" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612167674928">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612165440739" />
-    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612165440740">
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612167674928" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612167674930">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612165440740" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612167674930" />
   </component>
 </project>
