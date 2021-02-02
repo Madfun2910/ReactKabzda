@@ -6,17 +6,18 @@ import {OnOff} from "./components/OnOff/OnOff";
 
 
 // Function declaration
-function App() {
+function App(props: any) {
 
     return (
             <div>
-                <OnOff on={true} />
-
+                <OnOff />
+                <OnOff />
+                <OnOff />
                 {/*<PageTitle title={"Hello"}/>*/}
                 {/*<PageTitle title={"USER"}/>*/}
-                {/*<Accordion titlevalue={"Menu"} collapsed={true}/>*/}
-                {/*<Accordion titlevalue={"Menu2"} collapsed={false}/>*/}
-                {/*<Rating value={0}/>*/}
+                <Accordion titlevalue={"Menu"}/>
+                <Accordion titlevalue={"Menu2"}/>
+                <Rating />
                 {/*<Rating value={1}/>*/}
                 {/*<Rating value={2}/>*/}
                 {/*<Rating value={3}/>*/}

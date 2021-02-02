@@ -26,10 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +93,9 @@
       <option name="presentableId" value="Default" />
       <updated>1612165171856</updated>
       <workItem from="1612165172975" duration="1840000" />
-      <workItem from="1612167840968" duration="13690000" />
+      <workItem from="1612167840968" duration="14245000" />
+      <workItem from="1612188611834" duration="1171000" />
+      <workItem from="1612252029582" duration="10109000" />
     </task>
     <servers />
   </component>
@@ -111,21 +115,21 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612172341655">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612252056442">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612172341655" />
-    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612172341654">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612252056442" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612252056431">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612172341654" />
-    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612172341644">
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612252056431" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612252056425">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612172341644" />
-    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612172341655">
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612252056425" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612252056432">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612172341655" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612252056432" />
   </component>
 </project>
