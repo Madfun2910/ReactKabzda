@@ -1,28 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
-import {Accordion} from "./components/Accordion/Accordion";
 import {Rating} from "./components/Rating/Rating";
-import {OnOff} from "./components/OnOff/OnOff";
+import {ControledRating, RatingValueType} from "./components/Rating/ControledRating";
+import {ControledAccordion} from "./components/Accordion/ControledAccordion";
 
 
 // Function declaration
 function App(props: any) {
+    let [ratingValue, setRatingValue] = useState<RatingValueType>(0)
+    let [accordionCollapsed, setAccordionCollapsed] = useState<boolean>(true)
 
     return (
             <div>
-                <OnOff />
-                <OnOff />
-                <OnOff />
+                {/*<OnOff />*/}
+                {/*<OnOff />*/}
+                {/*<OnOff />*/}
                 {/*<PageTitle title={"Hello"}/>*/}
                 {/*<PageTitle title={"USER"}/>*/}
-                <Accordion titlevalue={"Menu"}/>
-                <Accordion titlevalue={"Menu2"}/>
-                <Rating />
-                {/*<Rating value={1}/>*/}
-                {/*<Rating value={2}/>*/}
-                {/*<Rating value={3}/>*/}
-                {/*<Rating value={4}/>*/}
-                {/*<Rating value={5}/>*/}
+                {/*<Accordion titlevalue={"Menu"}/>*/}
+                {/*<Accordion titlevalue={"Menu2"}/>*/}
+                {/*<Rating />*/}
+                {/*<ControledRating value={ratingValue} onClick={setRatingValue}/>*/}
+                <ControledAccordion titlevalue={'Menu'} colap={accordionCollapsed}
+                                    onChange={() => {setAccordionCollapsed(!accordionCollapsed)}} />
             </div>
     );
 }

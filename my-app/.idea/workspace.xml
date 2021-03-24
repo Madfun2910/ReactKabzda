@@ -26,6 +26,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57ac5506-dfdc-441d-957a-e2b8c4287b32" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Accordion/ControledAccordion.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Rating/ControledRating.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
@@ -60,12 +62,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Accordion" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Accordion" />
+      <recent name="$PROJECT_DIR$/src/components/Rating" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -95,7 +103,11 @@
       <workItem from="1612165172975" duration="1840000" />
       <workItem from="1612167840968" duration="14245000" />
       <workItem from="1612188611834" duration="1171000" />
-      <workItem from="1612252029582" duration="10109000" />
+      <workItem from="1612252029582" duration="10825000" />
+      <workItem from="1612335503961" duration="17000" />
+      <workItem from="1612335525017" duration="1000" />
+      <workItem from="1616417487452" duration="4910000" />
+      <workItem from="1616597568306" duration="1572000" />
     </task>
     <servers />
   </component>
@@ -115,21 +127,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1612252056442">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom" timestamp="1616598745113">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1612252056442" />
-    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1612252056431">
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1616598745113" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center" timestamp="1616598745112">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1612252056431" />
-    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1612252056425">
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1616598745112" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left" timestamp="1616598745110">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1612252056425" />
-    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1612252056432">
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1616598745110" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right" timestamp="1616598745112">
       <screen x="0" y="23" width="1440" height="813" />
     </state>
-    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1612252056432" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1616598745112" />
+    <state x="385" y="160" key="search.everywhere.popup" timestamp="1616422292520">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="385" y="160" key="search.everywhere.popup/0.23.1440.813@0.23.1440.813" timestamp="1616422292520" />
   </component>
 </project>

@@ -7,7 +7,7 @@ type PropsType = {
 
 export function OnOff(props: PropsType) {
 
-    let[on, setOn] =  useState(false); // Hook с инициализонным значением
+    let [on, setOn] = useState(false); // Hook с инициализонным значением
 
 
     const onStyle = {
@@ -37,11 +37,17 @@ export function OnOff(props: PropsType) {
         backgroundColor: on ? "green" : "red"
 
     };
+    const OnClickOnCallBack = () => {
+        setOn(true)
+    }
+    const OnClickOffCallBack = () => {
+        setOn(false)
+    }
 
     return (
         <div>
-            <div style={onStyle} onClick={ () => {setOn(true)} }>On</div>
-            <div style={offStyle} onClick={ () => {setOn(false)} }>Off</div>
+            <div style={onStyle} onClick={OnClickOnCallBack}>On</div>
+            <div style={offStyle} onClick={OnClickOffCallBack}>Off</div>
             <div style={indicatorStyle}></div>
         </div>
     )

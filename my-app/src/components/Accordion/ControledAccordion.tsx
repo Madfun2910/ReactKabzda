@@ -1,30 +1,31 @@
-import React, {useState} from "react";
+import React from "react";
 
 type AccordionPropsType = {
     titlevalue: string
+    colap:boolean
+    onChange: () => void
 }
 
-export function Accordion(props: AccordionPropsType) {
+export function ControledAccordion(props: AccordionPropsType) {
 
-    const [colap, setColap] = useState(false)
 
 
     return <div>
-        <AccordionTitle title={props.titlevalue} setColap={ () => {setColap(!colap)}}/>
-        {colap && <AccordionBody/> }
+        <AccordionTitle title={props.titlevalue}
+                        onChange={props.onChange}/>
+        {!props.colap && <AccordionBody/> }
     </div>
 
 }
 
 type  AccordionTitlePropsType = {
     title: string
-    setColap: () => void
-
+    onChange: () => void
 }
 
 function AccordionTitle(props: AccordionTitlePropsType) {
     return (
-        <h3 onClick={ () => {props.setColap()}}>{props.title}</h3>
+        <h3 onClick={props.onChange}>{props.title}</h3>
     )
 }
 
